@@ -1,0 +1,113 @@
+body {
+    
+        margin: 0;
+}
+
+#header {
+    
+        padding-top: 0.2em; 
+        padding-bottom: 0.2em;
+        margin: 0;
+        text-align: center;
+        background-color: dodgerblue;
+}
+
+.nav_bar {
+    
+        overflow: hidden;
+        background-color: black;
+}
+
+
+.nav_bar a {
+        
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px 16px;
+        text-decoration: none;
+}
+
+.dropdown {
+    
+        float: left;
+        overflow: visible;
+}
+
+.electronics {
+    
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        text-align: center;
+        padding: 10px 85px;
+        background-color: black;
+        font-family: inherit;
+        margin: 0;
+}
+
+.nav_bar a:hover, .dropdown:hover .electronics {
+        background-color: #0cd313;
+}
+
+.sub-menu-electronics {
+    
+        display: none;
+        position: absolute;
+        background-color: black;
+        z-index: 1;
+}
+
+.sidebar1{
+    
+        float: none;
+        overflow: hidden;
+}
+.sub-menu-mobiles {
+    
+        display: none;
+        position: absolute;
+        margin-top: -2.4em;
+        margin-left: 15.2em;
+        background-color: black;
+        z-index: inherit;
+}
+
+.sub-menu-mobiles a {
+    
+        color: aliceblue;
+        text-align: center;
+        padding: 10px 16px;
+        display: block;
+}
+
+.mobiles, .laptops, .ca {
+    
+        float: none;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px 50px;
+        text-decoration: none;
+        display: block;
+}
+
+
+.dropdown:hover .sub-menu-electronics {
+        
+        display: block;
+}
+
+.laptops:hover, .ca:hover {
+
+        background-color: #0cd313;
+}
+.sidebar1:hover .mobiles {
+    
+        background-color: #0cd313;
+}
+
+.sidebar1:hover .sub-menu-mobiles {
+        
+        display: inline-block;
+}
